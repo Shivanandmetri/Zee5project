@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN to ZEE5 & Watch Best Movies</title>
+    <link rel="icon" href="./Images/logo.jpg">
+    <style> 
+    body
+{
+    margin: 0;  
+    padding: 0;  
+    background-color:rosybrown;  
+    font-family: 'Arial';  
+    
+}  
+.login{  
+        width: 280px; 
+        height: 300px;
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background:wheat;  
+        border-radius: 15px ;  
+          
+}  
+h1{  
+    text-align: center;  
+    color: #1c150e;  
+    padding: 20px;  
+}  
+#username{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#userpassword{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#btn{  
+    
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+} 
+
+.close a img{
+height: 25px;
+width: 25px;
+float: right;
+}
+</style>
+</head>
+<body>
+    <section>
+        <article>
+            <h1>LOGIN PAGE</h1><br> 
+            <div class="close"><a href="./index.html"><img src="./Images/close.png" alt="close"></a></div>   
+            <div class="login">
+            <h1 style="text-align:center;">Login to ZEE5</h1>
+            <form action=""name="myform" onsubmit="return valid()" id="form">
+            Email/Mobile No <input type="text"name="name" id="username" placeholder="Email/Mobile No"><br><br>
+            password <input type="password" name="password" id="userpassword" placeholder="Password">
+            <br><br>
+            <input type="submit" value="Login" id="btn">
+            
+            </form>
+            </div>
+        </article>
+    </section>
+    <script src="./login.js"></script>
+</body>
+</html>
